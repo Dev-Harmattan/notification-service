@@ -28,5 +28,6 @@
       "@notifications/*": ["src/*"]
     }
   },
-  "exclude": ["node_modules/@types/glob", "node_modules/@types/shelljs"]
+  "exclude": ["node_modules"],
+  "include": ["src"]
 }
